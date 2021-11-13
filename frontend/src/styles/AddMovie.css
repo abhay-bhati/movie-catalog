@@ -1,0 +1,40 @@
+.addmovie {
+  background: url("../images/film-ga0ec04e0f_1920.jpg");
+  height: 800px;
+}
+.addmovieform {
+  width: 45%;
+  margin: 0px auto;
+  padding: 60px;
+}
+.addmovieform > div > input {
+  width: 50%;
+  padding: 8px;
+  border-radius: 4px;
+}
+.addmovieform > div > label {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.addmovieform > div {
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.addmovieform__btn {
+  justify-content: center !important;
+  margin-top: 20px;
+  margin-right: 68px;
+}
+.addmovieform__btn button {
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: rgb(82, 80, 80);
+  border-radius: 10px;
+  box-shadow: 5px 5px 16px black;
+}

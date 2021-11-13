@@ -1,0 +1,31 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-top: 50px;
+  background: rgb(177, 175, 175);
+  background-color: rgb(178, 178, 189);
+  padding-bottom: 60px;
+}
+.paginationBtns {
+  display: flex;
+  width: 40%;
+  margin: 10px auto;
+  justify-content: space-evenly;
+  cursor: pointer;
+  list-style: none;
+  padding: 10px;
+}
+.paginationBtns a {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+.paginationActive a {
+  border: 1px solid blue;
+  color: blue;
+}
+.paginationDisabled a {
+  color: gray;
+  border: 1px solid gray;
+}
